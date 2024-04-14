@@ -2,7 +2,7 @@
 import stdiomask as sm
 import os,sys
 
-# coded by Akash
+# Recoded by Phantom Xdot
 
 flag = True
 endc = '\033[0m'
@@ -13,9 +13,9 @@ yellow = '\033[33m'
 blue = '\033[34m'
 magneto = '\033[36m'
 
-os.system('figlet -c -k -f slant Termux-Lock|lolcat')
+os.system('figlet -c -k -f slant Phantom-Termux-Locker|lolcat')
 print ( magneto +'\n\t\t[ ★ Termux - Lock ★ ]\n',endc)
-print ( green +'\t\tcoded by - Akash Giri\n',endc)
+print ( green +'\t\tcoded by - Phantom Giri\n',endc)
 
 def main_menu():
 	dash = '-'
